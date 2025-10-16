@@ -43,7 +43,8 @@ public class Main {
 
 
   // The time complexity is:
-  // YOUR ANSWER HERE
+  // YOUR ANSWER HERE O(nums)
+
   public static int computeProduct(int[] nums) {
     int total = 1;
     for(int num : nums) {
