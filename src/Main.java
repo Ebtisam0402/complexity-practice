@@ -73,7 +73,7 @@ public class Main {
   }
 
   // Assume that the largest number is no bigger than the length
-  // of the array
+  // of the array O(nums)
   public static void computeAllFactorials(int[] nums) {
     for(int num : nums) {
         int result = computeFactorial(num);
